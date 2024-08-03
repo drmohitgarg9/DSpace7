@@ -1,6 +1,18 @@
-#Please follow this guide after the installation of any VM in your machine with Ubuntu 22.04
+# Please follow this guide after the installation of any VM in your machine with Ubuntu 22.04
+#Open the Terminal in the VM.
+Tip: CTRL + ALT + T
 
-apt-get install vim
+#Run the first Command
+sudo apt update
+
+#It will display an error : "username" not in the sudoers file 
+#We need to add the "username" in the sudoers file
+#To do that first install vim in your machine, ignore installation of vim, if it is already installed. 
+
+su 
+#After "su" it will ask the password, please type the password and hit the enter
+#Install the vim 
+sudo apt install vim 
 
 /etc#
 ~#
