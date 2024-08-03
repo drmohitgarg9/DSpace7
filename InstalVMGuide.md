@@ -15,12 +15,21 @@ su <br>
 
 #Install the vim
 
-sudo apt install vim 
+apt install vim 
 
 vi /etc/sudoers 
 
-mohit 
+#it will show that the file is read only. this is genrally shows when you have don't write, but you are sudo 
+
+#Giving the permissions 
+
 chmod 666 etc/sudoers
+
+vi /etc/sudoers 
+
+#Add the line     "Your Machine Name"    ALL=(ALL:ALL) ALL
+
+#What is 666? 
 
 /usr/lib/jvm/java-11-openjdk-amd64/
 
