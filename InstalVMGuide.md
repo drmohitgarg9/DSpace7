@@ -1,24 +1,25 @@
-# Please follow this guide after the installation of any VM in your machine with Ubuntu 22.04
-#Open the Terminal in the VM.
-Tip: CTRL + ALT + T
+# Please follow this guide after the installation of any VM in your machine with Ubuntu 22.04 
+#Open the Terminal in the VM. <br>
+Tip: CTRL + ALT + T <br>
 
-#Run the first Command
-sudo apt update
+#Run the first Command <br>
+sudo apt update <br>
 
-#It will display an error : "username" not in the sudoers file 
-#We need to add the "username" in the sudoers file
-#To do that first install vim in your machine, ignore installation of vim, if it is already installed. 
+#It will display an error : "username" not in the sudoers file. <br> 
+#We need to add the "username" in the sudoers file <br>
+#To do that first install vim in your machine, ignore installation of vim, if it is already installed. <br>
 
-su 
+su <br>
+
 #After "su" it will ask the password, please type the password and hit the enter
-#Install the vim 
+
+#Install the vim
+
 sudo apt install vim 
 
-/etc#
-~#
+vi /etc/sudoers 
 
-vi etc/sudoers
-
+mohit 
 chmod 666 etc/sudoers
 
 /usr/lib/jvm/java-11-openjdk-amd64/
